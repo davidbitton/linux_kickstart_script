@@ -35,6 +35,9 @@ authconfig --enableshadow --passalgo=sha512
 %packages
 @core
 openssh-server
+gcc
+make
+kernel-headers
 openssh-clients
 wget
 curl
