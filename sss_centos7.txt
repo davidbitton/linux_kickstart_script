@@ -14,7 +14,8 @@ firewall --disabled
 selinux --disabled
 skipx
 
-url --url=http://mirror.atlanticmetro.net/centos/7/os/x86_64/
+# url --url=http://mirror.atlanticmetro.net/centos/7/os/x86_64/
+url --url=http://mirror.cc.columbia.edu/pub/linux/centos/7/os/x86_64/
 
 bootloader --location=mbr --append="crashkernel=auto rhgb quiet net.ifnames=0" --timeout=1
 zerombr
